@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev:cy": "npx cypress run --config-file cypress.config.dev.ts",
-    "prd:cy": "npx cypress run --config-file cypress.config.prd.ts",
-    "start:dev": "npm run dev",
-    "start:prd": "npm run build && npm run start"
+    "cy:dev": "npx cypress run --config-file cypress.config.dev.ts",
+    "cy:prd": "npx cypress run --config-file cypress.config.prd.ts"
   },
   "keywords": [],
   "author": "",
