@@ -4,20 +4,15 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev:cy": "npx cypress run --config-file cypress.config.dev.ts",
-    "prd:cy": "npx cypress run --config-file cypress.config.prd.ts",
-    "start:dev": "npm run dev",
-    "start:prd": "npm run build && npm run start"
+    "cy:dev": "npx cypress run --config-file cypress.config.dev.ts",
+    "cy:prd": "npx cypress run --config-file cypress.config.prd.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "^6.0.2",
-    "@types/cypress": "^1.1.3",
     "@types/node": "^20.14.12",
     "cypress": "^13.13.1",
-    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }
