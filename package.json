@@ -5,7 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "cy:dev": "npx cypress run --config-file cypress.config.dev.ts",
-    "cy:prd": "npx cypress run --config-file cypress.config.prd.ts"
+    "cy:prd": "npx cypress run --config-file cypress.config.prd.ts",
+    "test:dev": "npx cypress open --config-file cypress.config.dev.ts",
+    "test:prd": "npx cypress open --config-file cypress.config.prd.ts"
   },
   "keywords": [],
   "author": "",
